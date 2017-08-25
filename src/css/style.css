@@ -1,0 +1,88 @@
+/**
+ * Copyright (C) Association Free Lutheran Bible School - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Benjamin Dahl <bdahl@aflc.org>, 2016
+ *
+ * @package    Student Interactions App
+ * @author     Benjamin Dahl <ben.dahl@mail.com>
+ * @copyright  2016 Association Free Lutheran Bible School
+ * @version    SVN: $Id$
+ */
+
+/* Larger devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+	#filter-dorm, #filter-wing {
+		float:left;
+	}
+	#filter-dorm {
+		margin-right:25px;
+	}
+
+	#staff-search, #student-search {
+		float:right;
+	}
+
+	#staff-search {
+		margin-left:25px;
+	}
+
+	.footer {
+	  position: static;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: 40px;
+	  background-color: #f5f5f5;
+	  padding: 10px;
+	}
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+	#filter-dorm, #filter-wing, #staff-search, #student-search {
+		margin-bottom: 15px;
+	}
+
+	.footer {
+	  position: static;
+	  bottom: 0;
+	  width: 100%;
+	  /* Set the fixed height of the footer here */
+	  height: 40px;
+	  background-color: #f5f5f5;
+	  padding: 10px;
+	}
+
+	#content {
+		margin-bottom: 100px;
+	}
+
+}
+
+@media (max-width: 768px) {
+  .hidden-md-up { display: block; }  /* show it on small screens */
+}
+
+@media (min-width: 768px){
+  .hidden-md-up { display: none; }   /* hide it elsewhere */
+}
+
+.footer {
+	display:none;
+}
+
+#display-records {
+	margin-bottom:25px;
+}
+
+#pagination {
+	float:right;
+}
+
+#formResponse {
+    margin-top: 15px;
+}
