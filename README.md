@@ -1,8 +1,8 @@
-#Student Interactions Tracker
+# Student Interactions Tracker
 
 This app was designed as an internal tool for staff to track interactions with students. 
 
-##Instalation
+## Instalation
 
 1. Edit config.php
 2. Edit login/config.php
